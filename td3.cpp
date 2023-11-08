@@ -12,7 +12,7 @@ using namespace support;
 
 double* extend_array(double* array, int length, int new_size) {
   // IMPLEMENT YOUR FUNCTION HERE
-    double* new_array=new double[new_size];
+  double* new_array=new double[new_size];
   for(int i=0;i<length;i++){
         new_array[i]=array[i];
     }
